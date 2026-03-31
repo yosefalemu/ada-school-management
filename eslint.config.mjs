@@ -11,8 +11,6 @@ const eslintConfig = defineConfig([
     rules: {
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_", varsIgnorePattern: "^_" }],
       "no-console": "error",
-      "semi": ["error", "always"],
-      "quotes": ["error", "double"],
     }
   },
   // Override default ignores of eslint-config-next.
