@@ -22,7 +22,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  console.log("geinstSans", geistSans);
   return (
     <html
       lang="en"
